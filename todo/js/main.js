@@ -19,7 +19,6 @@ alerta.addEventListener('click', () => {
         color: '#204135',
         background: '#fff',
         showConfirmButton: false,
-        timer: 2500,
         backdrop: `
         rgba(235, 179, 58, 0.4)
         url("./todo/image/alert.gif")
