@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () =>{
 
 const alerta = document.querySelector ("#btnBusqueda");
 
-alerta.addEventListener('click', () => {
-
+alerta.addEventListener('click', (e) => {
+    e.preventDefault();
     Swal.fire({
         title: 'Esta funcion todavia no se encuentra disponible.',
         width: 600,
